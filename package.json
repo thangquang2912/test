@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "Zen TaskFlow Pro - Đồ án Quản lý Công việc & Pomodoro với giao diện hiện đại cùng CI/CD GitHub Actions 5 bước",
+  "keywords": ["pomodoro", "task-manager", "ci-cd", "vite", "vitest", "glassmorphism"],
   "type": "module",
   "scripts": {
     "dev": "vite",
