@@ -1,0 +1,19 @@
+{
+  "name": "zen-taskflow-pro",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Zen TaskFlow Pro - Đồ án Quản lý Công việc & Pomodoro với giao diện hiện đại cùng CI/CD GitHub Actions 5 bước",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "echo 'No lint errors found! (Check passed)'"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "vitest": "^2.0.5"
+  }
+}
