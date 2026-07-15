@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zen TaskFlow Pro | Quản lý Công việc & Pomodoro Dashboard</title>
+  <meta name="description" content="Đồ án quản lý công việc và thời gian Pomodoro hiện đại với giao diện Glassmorphism và quy trình CI/CD GitHub Actions 5 bước." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- App Header -->
+    <header class="app-header">
+      <div class="logo">
+        <div class="logo-icon">⚡</div>
+        <div class="logo-text">
+          <h1>Zen TaskFlow Pro</h1>
+          <span>Productivity & CI/CD Suite</span>
+        </div>
+      </div>
+      <div class="header-stats">
+        <div class="stat-badge">
+          <span>Tổng số việc:</span>
+          <strong id="total-count">0</strong>
+        </div>
+        <div class="stat-badge">
+          <span>Hoàn thành:</span>
+          <strong id="completion-rate">0%</strong>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Grid Content -->
+    <main class="main-grid">
+      <!-- Pomodoro Timer Section -->
+      <section class="glass-card pomodoro-card">
+        <div class="card-title">
+          <span>⏱️ Pomodoro Timer</span>
+          <span style="font-size: 0.8rem; color: var(--accent);">Tập trung & Hiệu quả</span>
+        </div>
+        
+        <div class="pomodoro-container">
+          <div class="mode-selectors">
+            <button class="mode-btn active" data-mode="work">Tập trung (25')</button>
+            <button class="mode-btn" data-mode="shortBreak">Nghỉ ngắn (5')</button>
+            <button class="mode-btn" data-mode="longBreak">Nghỉ dài (15')</button>
+          </div>
+
+          <div class="timer-circle" id="timer-circle">
+            <div class="timer-display" id="timer-display">25:00</div>
+            <div class="timer-label" id="timer-label">Thời gian làm việc tập trung</div>
+          </div>
+
+          <div class="timer-controls">
+            <button class="btn btn-primary" id="start-btn">
+              <span>▶</span> Bắt đầu
+            </button>
+            <button class="btn btn-secondary" id="reset-btn">
+              <span>🔄</span> Đặt lại
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task Manager Section -->
+      <section class="glass-card task-card">
+        <div class="card-title">
+          <span>📋 Danh sách Công việc</span>
+          <div class="task-filters">
+            <button class="filter-btn active" data-filter="all">Tất cả</button>
+            <button class="filter-btn" data-filter="active">Đang làm</button>
+            <button class="filter-btn" data-filter="completed">Đã xong</button>
+            <button class="filter-btn" data-filter="high-priority">Ưu tiên cao</button>
+          </div>
+        </div>
+
+        <div class="progress-container">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+        <!-- Add Task Form -->
+        <form class="task-form" id="task-form">
+          <div class="input-group">
+            <input 
+              type="text" 
+              class="task-input" 
+              id="task-input" 
+              placeholder="Thêm công việc mới cần hoàn thành..." 
+              autocomplete="off"
+              required 
+            />
+            <select class="priority-select" id="priority-select">
+              <option value="medium">⚡ Trung bình</option>
+              <option value="high">🔥 Ưu tiên Cao</option>
+              <option value="low">🌱 Thấp</option>
+            </select>
+            <button type="submit" class="btn btn-primary" id="add-task-btn">
+              <span>+</span> Thêm
+            </button>
+          </div>
+        </form>
+
+        <!-- Task List Container -->
+        <ul class="task-list" id="task-list">
+          <!-- Tasks will be rendered dynamically -->
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
