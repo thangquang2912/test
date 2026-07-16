@@ -6,7 +6,7 @@
 
 ---
 
-## 🌟 Tính Năng Nổi Bật nhất
+## 🌟 Tính Năng Nổi Bật
 
 1. **⏱️ Pomodoro Timer Thông Minh:**
    - Hỗ trợ 3 chế độ: Làm việc tập trung (25 phút), Nghỉ ngắn (5 phút), Nghỉ dài (15 phút).
