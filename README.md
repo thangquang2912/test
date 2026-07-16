@@ -2,6 +2,7 @@
 
 [![CI/CD - 5 Bước Kiểm Thử & Đóng Gói](https://github.com/thangquang2912/test/actions/workflows/ci.yml/badge.svg)](https://github.com/thangquang2912/test/actions/workflows/ci.yml)
 
+
 **Zen TaskFlow Pro** là một đồ án web ứng dụng quản lý công việc kết hợp bộ đếm thời gian Pomodoro hiện đại. Đồ án được thiết kế theo phong cách **Glassmorphism**, chế độ Dark Mode tinh tế, cùng hệ thống tự động kiểm thử và triển khai **CI/CD GitHub Actions 5 bước**.
 
 ---
