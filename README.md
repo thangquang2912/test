@@ -1,12 +1,12 @@
-# ⚡ Zen TaskFlow Pro | Quản lý Công việc & Pomodoro Dashboard
+# ⚡ Zen TaskFlow Pro | Quản lý Công việc & Pomodoro Dashboarddđddd
 
 [![CI/CD - 5 Bước Kiểm Thử & Đóng Gói](https://github.com/thangquang2912/test/actions/workflows/ci.yml/badge.svg)](https://github.com/thangquang2912/test/actions/workflows/ci.yml)
 
-**Zen TaskFlow Pro** là một đồ án web ứng dụng quản lý công việc kết hợp bộ đếm thời gian Pomodoro hiện đại. Đồ án được thiết kế theo phong cách **Glassmorphism**, chế độ Dark Mode tinh tế, cùng hệ thống tự động kiểm thử và triển khai **CI/CD GitHub Actions 5 bước**. yeh sirrrrr
-
+**Zen TaskFlow Pro** là một đồ án web ứng dụng quản lý công việc kết hợp bộ đếm thời gian Pomodoro hiện đại. Đồ án được thiết kế theo phong cách **Glassmorphism**, chế độ Dark Mode tinh tế, cùng hệ thống tự động kiểm thử và triển khai **CI/CD GitHub Actions 5 bước**.....
+aaa
 ---
 
-## 🌟 Tính Năng Nổi Bật
+## 🌟 Tính Năng Nổi Bậttttt
 
 1. **⏱️ Pomodoro Timer Thông Minh:**
    - Hỗ trợ 3 chế độ: Làm việc tập trung (25 phút), Nghỉ ngắn (5 phút), Nghỉ dài (15 phút).
