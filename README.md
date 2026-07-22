@@ -20,7 +20,7 @@ aaa
    - Tính toán tỷ lệ hoàn thành theo thời gian thực và hiển thị thanh tiến độ sinh động.
 4. **🎨 Giao Diện Đẳng Cấp (Rich Aesthetics):**
    - Sử dụng font chữ hiện đại (`Outfit` & `Plus Jakarta Sans`).
-   - Hiệu ứng kính mờ (Glassmorphism), gradient mượt mà và animation chuyển động sống động.
+   - Hiệu ứng kính mờ (Glassmorphism), gradient mượt mà và animation chuyển động sống động....
 
 ---
 
